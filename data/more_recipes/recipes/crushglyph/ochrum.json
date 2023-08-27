@@ -1,0 +1,25 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "tag": "create:stone_types/ochrum"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 1,
+        "item": "minecraft:gold_nugget",
+        "maxRange": 9
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }

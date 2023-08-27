@@ -1,0 +1,31 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "aquaculture:stone_fillet_knife"
+    },
+    "output": [
+      {
+        "chance": 0.75,
+        "count": 1,
+        "item": "minecraft:stone",
+        "maxRange": 1
+      },
+      {
+        "chance": 0.5,
+        "count": 1,
+        "item": "minecraft:stick",
+        "maxRange": 1
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "aquaculture"
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "minecraft:iron_shovel"
+    },
+    "output": [
+      {
+        "chance": 0.5,
+        "count": 1,
+        "item": "minecraft:iron_ingot",
+        "maxRange": 1
+      },
+      {
+        "chance": 0.75,
+        "count": 1,
+        "item": "minecraft:stick",
+        "maxRange": 1
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      }
+    ]
+  }

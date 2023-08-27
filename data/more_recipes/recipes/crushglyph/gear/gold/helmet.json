@@ -1,0 +1,21 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "minecraft:golden_helmet"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 1,
+        "item": "minecraft:gold_ingot",
+        "maxRange": 2
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      }
+    ]
+  }

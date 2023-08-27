@@ -1,0 +1,31 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "pickletweaks:emerald_scythe"
+    },
+    "output": [
+      {
+        "chance": 0.75,
+        "count": 1,
+        "item": "minecraft:emerald",
+        "maxRange": 1
+      },
+      {
+        "chance": 0.75,
+        "count": 1,
+        "item": "minecraft:stick",
+        "maxRange": 2
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "pickletweaks"
+      }
+    ]
+  }

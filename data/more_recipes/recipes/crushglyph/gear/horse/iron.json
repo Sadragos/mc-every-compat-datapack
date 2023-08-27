@@ -1,0 +1,27 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "minecraft:iron_horse_armor"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 1,
+        "item": "minecraft:iron_ingot",
+        "maxRange": 2
+      },
+      {
+        "chance": 0.75,
+        "count": 1,
+        "item": "minecraft:leather",
+        "maxRange": 2
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      }
+    ]
+  }

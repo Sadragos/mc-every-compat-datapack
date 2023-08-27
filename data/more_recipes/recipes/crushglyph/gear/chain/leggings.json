@@ -1,0 +1,21 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "minecraft:chainmail_leggings"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 1,
+        "item": "minecraft:chain",
+        "maxRange": 3
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      }
+    ]
+  }

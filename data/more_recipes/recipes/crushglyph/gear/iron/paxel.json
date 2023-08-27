@@ -1,0 +1,31 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "item": "pickletweaks:iron_paxel"
+    },
+    "output": [
+      {
+        "chance": 1,
+        "count": 1,
+        "item": "minecraft:iron_ingot",
+        "maxRange": 4
+      },
+      {
+        "chance": 1,
+        "count": 1,
+        "item": "minecraft:stick",
+        "maxRange": 4
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "pickletweaks"
+      }
+    ]
+  }

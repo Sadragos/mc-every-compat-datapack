@@ -1,0 +1,37 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "tag": "forge:raw_materials/copper"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 9,
+        "item": "create:copper_nugget",
+        "maxRange": 1
+      },
+      {
+        "chance": 1,
+        "count": 1,
+        "item": "create:copper_nugget",
+        "maxRange": 3
+      },
+      {
+        "chance": 0.25,
+        "count": 1,
+        "item": "ars_nouveau:experience_gem",
+        "maxRange": 1
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }
