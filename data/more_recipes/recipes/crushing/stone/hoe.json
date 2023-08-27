@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_hoe"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:flint",
+      "count": 1,
+	  "chance": 0.25
+    },
+	{
+      "item": "minecraft:flint",
+      "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

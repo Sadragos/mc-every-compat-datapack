@@ -1,0 +1,45 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_pickaxe"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 2
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 2,
+	  "chance": 0.75
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 3,
+	  "chance": 0.5
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 4,
+	  "chance": 0.25
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 5,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

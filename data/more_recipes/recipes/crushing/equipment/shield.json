@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:shield"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:iron_nugget",
+      "chance": 0.25,
+	  "count": 4
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5,
+	  "count": 2
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

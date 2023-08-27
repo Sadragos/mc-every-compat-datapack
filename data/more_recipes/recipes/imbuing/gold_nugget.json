@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:fire_essence"
+  },
+  "output": "minecraft:nether_gold_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:nuggets/gold"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherrack"
+      }
+    }
+  ],
+  "source": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

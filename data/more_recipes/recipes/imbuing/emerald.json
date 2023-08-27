@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:earth_essence"
+  },
+  "output": "minecraft:emerald_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/emerald"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "source": 4500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

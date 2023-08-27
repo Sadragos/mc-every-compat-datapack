@@ -1,0 +1,41 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_chestplate"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 4
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 6,
+	  "chance": 0.75
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 9,
+	  "chance": 0.5
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 11,
+	  "chance": 0.25
+    },
+	{
+      "item": "minecraft:iron_nugget",
+      "count": 13,
+	  "chance": 0.1
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

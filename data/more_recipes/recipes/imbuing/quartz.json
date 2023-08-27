@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:fire_essence"
+  },
+  "output": "minecraft:nether_quartz_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherrack"
+      }
+    }
+  ],
+  "source": 2500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

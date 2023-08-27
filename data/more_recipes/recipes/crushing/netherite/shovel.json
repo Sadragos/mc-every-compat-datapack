@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_shovel"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:netherite_scrap",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:bow"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:string",
+      "chance": 0.5
+    },
+		{
+      "item": "minecraft:string",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

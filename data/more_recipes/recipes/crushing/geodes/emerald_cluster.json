@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "geore:emerald_cluster"
+    }
+  ],
+  "results": [
+	{
+      "item": "geore:emerald_shard",
+      "count": 7
+    },
+	{
+      "item": "geore:emerald_shard",
+      "count": 1,
+	  "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "geore"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:fire_essence"
+  },
+  "output": "minecraft:ancient_debris",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/netherite"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:obsidian"
+      }
+    }
+  ],
+  "source": 40000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

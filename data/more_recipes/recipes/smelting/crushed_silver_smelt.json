@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+	  "item": "create:crushed_raw_silver"
+  },
+  "result": {
+      "count": 1,
+      "item": "occultism:silver_ingot"
+  },
+  "experience": 0.1,
+  "cookingtime": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

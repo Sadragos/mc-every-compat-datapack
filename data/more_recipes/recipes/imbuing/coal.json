@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:earth_essence"
+  },
+  "output": "minecraft:coal_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:coal"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "source": 250,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

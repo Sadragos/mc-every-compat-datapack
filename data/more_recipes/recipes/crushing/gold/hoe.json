@@ -1,0 +1,45 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_hoe"
+    }
+  ],
+  "results": [
+	{
+      "item": "minecraft:gold_nugget",
+      "count": 1
+    },
+	{
+      "item": "minecraft:gold_nugget",
+      "count": 2,
+	  "chance": 0.75
+    },
+	{
+      "item": "minecraft:gold_nugget",
+      "count": 2,
+	  "chance": 0.5
+    },
+	{
+      "item": "minecraft:gold_nugget",
+      "count": 3,
+	  "chance": 0.25
+    },
+	{
+      "item": "minecraft:gold_nugget",
+      "count": 3,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:stick",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

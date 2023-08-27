@@ -1,0 +1,36 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:manipulation_essence"
+  },
+  "output": "create:zinc_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/zinc"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/zinc"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "source": 2250,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

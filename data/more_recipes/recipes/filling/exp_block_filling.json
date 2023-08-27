@@ -1,0 +1,27 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 24
+    }
+  ],
+  "results": [
+    {
+      "item": "create:experience_block"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_enchantment_industry"
+    }
+  ]
+}

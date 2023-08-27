@@ -1,0 +1,36 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:manipulation_essence"
+  },
+  "output": "occultism:silver_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/silver"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "source": 2000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "occultism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

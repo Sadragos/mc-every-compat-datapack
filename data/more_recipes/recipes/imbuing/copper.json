@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:manipulation_essence"
+  },
+  "output": "minecraft:copper_ore",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/copper"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:stone"
+      }
+    }
+  ],
+  "source": 1000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

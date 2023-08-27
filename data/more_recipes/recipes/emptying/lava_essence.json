@@ -1,0 +1,24 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

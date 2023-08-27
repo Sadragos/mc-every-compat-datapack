@@ -1,0 +1,24 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

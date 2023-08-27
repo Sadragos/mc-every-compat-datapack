@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "geore:diamond_block"
+    }
+  ],
+  "results": [
+	{
+      "item": "geore:diamond_shard",
+      "count": 3
+    },
+	{
+      "item": "geore:diamond_shard",
+      "count": 1,
+	  "chance": 0.5
+    }
+  ],
+  "processingTime": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "geore"
+    }
+  ]
+}
