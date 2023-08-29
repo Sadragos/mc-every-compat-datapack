@@ -1,0 +1,33 @@
+{
+    "type": "ars_nouveau:crush",
+    "input": {
+      "tag": "forge:ores/netherite_scrap"
+    },
+    "output": [
+      {
+        "chance": 1.0,
+        "count": 1,
+        "item": "minecraft:netherite_scrap",
+        "maxRange": 1
+      },
+      {
+        "chance": 0.25,
+        "count": 1,
+        "item": "minecraft:netherite_scrap",
+        "maxRange": 1
+      },
+      {
+        "chance": 1,
+        "count": 1,
+        "item": "ars_nouveau:greater_experience_gem",
+        "maxRange": 3
+      }
+    ],
+    "skip_block_place": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "ars_nouveau"
+      }
+    ]
+  }

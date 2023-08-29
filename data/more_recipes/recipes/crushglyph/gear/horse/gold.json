@@ -1,7 +1,7 @@
 {
     "type": "ars_nouveau:crush",
     "input": {
-      "item": "minecraft:gold_horse_armor"
+      "item": "minecraft:golden_horse_armor"
     },
     "output": [
       {
