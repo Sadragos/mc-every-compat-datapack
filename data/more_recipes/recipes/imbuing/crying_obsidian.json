@@ -1,0 +1,32 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "minecraft:obsidian"
+  },
+  "output": "minecraft:crying_obsidian",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:fire_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:water_essence"
+      }
+    }
+  ],
+  "source": 100,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}
